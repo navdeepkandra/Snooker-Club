@@ -1,0 +1,14 @@
+*{
+    font-family: Arial;
+}
+body{
+    background-color: rgb(203, 210, 210);
+}
+h1{
+    text-align: center;
+    text-decoration: underline;
+}
+.service h2{
+    color:rgb(236, 139, 11);
+    text-align:center;
+}

@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Join US</title>
+    <style>
+        form{
+            border: 2px solid black;
+            padding: 20px;
+            border-radius: 20px;
+            text-align: center;
+            margin: 0% 30% 0% 30%;
+            background-color: black;
+            color:white;
+            
+        }
+        body{
+            background-color: rgb(152, 182, 29);
+        }
+        
+    </style>
+</head>
+<body>
+    <div>
+    <form action="index.php">
+
+        <h1>Join US</h1>
+        <label>Name:</label>
+        <input type="text"><br><br>
+
+        <label>Adress</label>
+        <input type="text"><br><br>
+
+        <label>Email:</label>
+        <input type="email"><br><br>
+
+        <label>Password</label>
+        <input type="password"><br><br>
+
+        <label>Gender:</label>
+        <input type="radio"name="gender" value="Male" >Male
+        <input type="radio" name="gender" value="Female">Female<br><br>
+
+        <label>choose no. of players:</label>
+        <input type="radio" name='players' value="Single player">Single Player
+        <input type="radio" name='players' value="Two player">Two player
+        <input type="radio" name='players' value="Multiplayer">Multiplayer<br><br>
+
+        <label>Date Of Birth:</label>
+        <input type="date"><br><br>
+        <input type="submit"value="submit" >
+        <input type="reset" value="Reset">
+        <input type="button" onclick="alert('Application saved successfully')" value="save">
+
+
+
+    </form>
+</div>
+    
+    
+</body>
+</html>

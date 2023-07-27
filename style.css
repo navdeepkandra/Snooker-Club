@@ -1,0 +1,108 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial;
+    box-sizing: border-box;
+}
+.nav{
+    height: 100px;
+    background-color: black;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+   
+}
+.logo{
+    background-image: url(logo.png);
+    background-size: cover;
+    height: 60px;
+    width: 450px;
+    background-position: center;
+  margin-bottom: 20px;
+  margin-left: 20px;
+  align-items: center;
+  margin-top: 15px;
+}
+.home h2{
+    color: white;
+}
+.home a{
+    color:white;
+    text-decoration: none;
+}
+.about h2{
+    color: white;
+}
+.about a{
+    color:white;
+    text-decoration: none;
+}
+.gallery h2{
+    color: white;
+}
+.gallery a{
+    color:white;
+    text-decoration: none;
+}
+.service h2{
+    color: white;
+}
+.service a{
+    color:white;
+    text-decoration: none;
+}
+.contact h2{
+    color: white;
+}
+.contact a{
+    color:white;
+    text-decoration: none;
+}
+.hero-section{
+    height: 700px;;
+    background-color: black;
+    background-image: url(snooker.jpg);
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: center;
+    width: 100%;
+   
+}
+.welcome h1{
+    color: rgba(255, 255, 255, 0.904);
+    margin-left: 200px;
+    display: inline block;
+    font-size: 3rem;
+   
+}
+.info h3{
+    color: rgba(255, 255, 255, 0.808);
+    margin-left: 200px;
+    margin-top: 10px;
+    font-size: 1.5rem;
+}
+.exc{
+    color: white;
+    margin-left: 20px;
+    font-size: 1.5rem;
+    margin-top: 230px;
+}
+.join{
+    background-color:rgb(129, 27, 27);
+    width: 200px;
+    height: 60px;
+  padding: 30px;
+ padding-left: 50px;   border-radius: 20%;
+    color:white;
+    font-size: 1.5rem;
+    font-weight: 700;
+    display: flex;
+align-items: center;
+margin-left: 50px;
+margin-top: 20px;
+}
+.join a{
+    color: white;
+    text-decoration: none;
+}
